@@ -39,4 +39,9 @@ public class Pig extends Animal
     }
 
     //3 toString
+    public String toString()
+    {
+        String output = super.toString();
+        return output;
+    }
 }

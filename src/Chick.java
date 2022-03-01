@@ -4,7 +4,7 @@ public class Chick extends Animal
     private int age;
 
     //2 Constructors
-    public Chick (String type, int age)
+    public Chick (String type, String sound, int age)
     {
         super(type, "");
         if (age < 4)
@@ -47,4 +47,9 @@ public class Chick extends Animal
     }
 
     //3 toString
+    public String toString()
+    {
+        String output = super.toString();
+        return output;
+    }
 }

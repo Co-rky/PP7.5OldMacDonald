@@ -39,4 +39,10 @@ public class Cow extends Animal
     }
 
     //3 toString
+    public String toString()
+    {
+        String output = super.toString() +
+                        "That cow's name was " + name;
+        return output;
+    }
 }

@@ -32,4 +32,17 @@ public class Animal
     }
 
     //3 toString
+    public String toString()
+    {
+        String output = "Old MacDonald had a farm. E-I-E-I-O." +
+                        "\nAnd on that farm he had a " + type + ". E-I-E-I-O." +
+                        "\nWith an " + sound + " " + sound + " here." +
+                        "\nAnd an " + sound + " " + sound + " there." +
+                        "\nHere an " + sound + "." +
+                        "\nThere an " + sound + "." +
+                        "\nEverywhere an " + sound + " " + sound + "." +
+                        "\nOld MacDonald had a farm. E-I-E-I-O.";
+        return output;
+    }
+
 }
